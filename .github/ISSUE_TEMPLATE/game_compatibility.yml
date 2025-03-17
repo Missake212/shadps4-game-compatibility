@@ -14,7 +14,7 @@ body:
           required: true
         - label: My game dump comes from a copy of the game I own.
           required: true
-        - label: - My game dump is unmodified, I haven't enabled any game patches and I didn't repackage my game dump to a FPKG.
+        - label: My game dump is unmodified, I haven't enabled any game patches and I didn't repackage my game dump to a FPKG.
           required: true
         - label: I've made sure my logging type is set to "sync" and not "async".
           required: true
