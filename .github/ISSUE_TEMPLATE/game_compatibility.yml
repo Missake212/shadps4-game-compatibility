@@ -11,6 +11,14 @@ body:
         - Your game dump must come from a copy of the game you own.
         - Your game dump must be unmodified, and you must not enable any game patches. Dumps repackaged to FPKGs will be treated the same way.
         - Make sure your logging type is set to "sync" and not "async".
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I have read the rules prior to opening my report and the report abides by them.
+          required: true
+          
   - type: input
     id: game-name
     attributes:
