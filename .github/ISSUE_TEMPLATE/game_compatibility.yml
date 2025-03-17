@@ -4,7 +4,7 @@ body:
   - type: checkboxes
     id: checklist
     attributes:
-      label: Important: Read first
+      label: ## Important: Read first
       options:
         - label: I've tested on a major releases and not on nightly builds. In this case: 0.7.0 and not 0.7.1 WIP
           required: true
