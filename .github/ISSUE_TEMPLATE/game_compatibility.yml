@@ -1,10 +1,14 @@
 name: Game Compatibility
 description: Report a game's compatibility status on shadPS4
 body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Important: Read First
   - type: checkboxes
     id: checklist
     attributes:
-      label: ## Important: Read first
+      label: Checklist
       options:
         - label: I've tested on a major releases and not on nightly builds. In this case 0.7.0 and not 0.7.1 WIP
           required: true
