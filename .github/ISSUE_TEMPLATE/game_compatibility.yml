@@ -8,7 +8,7 @@ body:
       options:
         - label: I've tested on a major releases and not on nightly builds. In this case 0.7.0 and not 0.7.1 WIP
           required: true
-        - label: My report is an officially released Playstation 4 games. (You can find a list of games here https://www.serialstation.com/games/)
+        - label: My report is an officially released Playstation 4 games. (You can find a list of games [here](https://www.serialstation.com/games/))
           required: true
         - label: I've made sure there are no other issues opened for this game and operating system combo.
           required: true
